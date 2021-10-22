@@ -11,7 +11,7 @@ Pr0fess0r_99= Client(
 
 @Pr0fess0r_99.on_message(filters.command("start"))
 async def start(client: Pr0fess0r_99, update):
-    start_msg = "👋Hy {}, Iam Simple Auto Welcome Bot\n\nBot Owner Only /admin\n\nMaintained By @Mo_Tech_YT"
+    start_msg = "👋Hy {}, Iam Simple Auto Welcome Bot\n\nBot Owner Only /admin\n\nMaintained By @AD_BOTZ"
     bot_username = await client.get_me()
     link = "PR0FESS0R-99/Auto-Welcome-Bot"
     reply_markup = InlineKeyboardMarkup(
@@ -19,7 +19,7 @@ async def start(client: Pr0fess0r_99, update):
             [
                 InlineKeyboardButton
                     (
-                         "🤖More Bots", url="t.me/MT_Botz"
+                         "🤖More Bots", url="t.me/AD_Botz"
                     ),
                 InlineKeyboardButton
                     (
@@ -78,7 +78,7 @@ async def admin(bot: Pr0fess0r_99, update):
             [
                 InlineKeyboardButton
                     (
-                        "💫 DEPLOY NOW 💫", url=f"https://youtu.be/{run}"
+                        "🎬 For Movie 🎬", url=f"https://youtu.be/{run}"
                     )
             ]
         ]
@@ -142,6 +142,6 @@ async def auto_welcome(bot: Pr0fess0r_99, msg: Message):
 
 print("""Auto Welcome Bot Started
 
-Maintained By @Mo_Tech_YT""")
+Maintained By @AD_BOTZ""")
 
 Pr0fess0r_99.run()
